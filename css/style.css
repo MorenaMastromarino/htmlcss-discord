@@ -114,3 +114,35 @@ header {
 .jumbotron .btn:first-of-type {
   margin-right: 20px;
 }
+
+/* MAIN */
+main .image img {
+  width: 100%;
+}
+
+main .text-box {
+  display: inline-block;
+  padding: 20px 0 80px 150px;
+}
+
+main .image, main .text-box {
+  float: left;
+  width: calc(100% / 2);
+}
+
+main .text-box h2 {
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+
+main .text-box p {
+  line-height: 30px;
+}
+
+.beige .text-box {
+  padding: 20px 150px 0 0;
+}
+
+main section.beige {
+  background-color: #F6F6F6;
+}
